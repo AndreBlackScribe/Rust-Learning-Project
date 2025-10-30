@@ -108,4 +108,3 @@ Created and maintained by Andrei Filipiuc as a personal learning journey and ope
 ---
 
 Happy coding! 🦀
-```
