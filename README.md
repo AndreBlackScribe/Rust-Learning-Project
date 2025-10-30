@@ -109,7 +109,3 @@ Created and maintained by Andrei Filipiuc as a personal learning journey and ope
 
 Happy coding! 🦀
 ```
-
----
-
-Would you like me to save this as a `README.md` file in your project directory?
