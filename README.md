@@ -28,7 +28,7 @@ rust_learning/
 Each folder contains:
 - `README.md` — task, challenge, hint, and bonus challenge
 - `main.rs` — your implementation
-- `test.rs` — unit tests (starting from topic 15)
+- `test.rs` — unit tests
 
 ---
 
@@ -61,8 +61,8 @@ Each folder contains:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/rust-learning-project.git
-   cd rust-learning-project/rust_learning
+   git clone https://github.com/AndreBlackScribe/Rust-Learning-Project.git
+   cd Rust-Learning-Project
    ```
 
 2. **Navigate to a topic folder**  
