@@ -58,19 +58,22 @@ Each folder contains:
 ---
 
 ## 🚀 How to Use
-0. It is assumed that you allready have installed rust on your linux machine. if not follow: https://rust-lang.org/tools/install/
-1. **Clone the repository**  
+
+0. **Rust installed ?**
+It is assumed that you allready have installed rust on your linux machine. if not follow: https://rust-lang.org/tools/install/
+
+2. **Clone the repository**  
    ```bash
    git clone https://github.com/AndreBlackScribe/Rust-Learning-Project.git
    cd Rust-Learning-Project
    ```
 
-2. **Navigate to a topic folder**  
+3. **Navigate to a topic folder**  
    ```bash
    cd 15_functions
    ```
    
-3. **Initialize a Cargo project (if needed)**
+4. **Initialize a Cargo project (if needed)**
 If you want to run or test the code using Cargo, initialize the folder as a Cargo project.
 ⚠️ Since folder names start with digits, use the --name flag to specify a valid package name:
    ```bash
@@ -79,12 +82,12 @@ If you want to run or test the code using Cargo, initialize the folder as a Carg
    mv test.rs src/test.rs  # or integrate into main.rs
    ```
 
-4. **Run the code**  
+5. **Run the code**  
    ```bash
    cargo run
    ```
 
-5. **Run tests** (for topics 15–20)  
+6. **Run tests** (for topics 15–20)  
    ```bash
    cargo test
    ```
