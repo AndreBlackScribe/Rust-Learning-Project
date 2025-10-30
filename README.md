@@ -58,7 +58,7 @@ Each folder contains:
 ---
 
 ## 🚀 How to Use
-
+0. It is assumed that you allready have installed rust on your linux machine. if not follow: https://rust-lang.org/tools/install/
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/AndreBlackScribe/Rust-Learning-Project.git
@@ -69,10 +69,18 @@ Each folder contains:
    ```bash
    cd 15_functions
    ```
+2b. **Initialize a Cargo project (if needed)**
+If you want to run or test the code using Cargo, initialize the folder as a Cargo project.
+⚠️ Since folder names start with digits, use the --name flag to specify a valid package name:
+   ```bash
+   cargo init --bin --name functions_15
+   mv main.rs src/main.rs
+   mv test.rs src/test.rs  # or integrate into main.rs
+   ```
 
 3. **Run the code**  
    ```bash
-   rustc main.rs && ./main
+   cargo run
    ```
 
 4. **Run tests** (for topics 15–20)  
