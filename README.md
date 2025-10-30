@@ -69,7 +69,8 @@ Each folder contains:
    ```bash
    cd 15_functions
    ```
-2b. **Initialize a Cargo project (if needed)**
+   
+3. **Initialize a Cargo project (if needed)**
 If you want to run or test the code using Cargo, initialize the folder as a Cargo project.
 ⚠️ Since folder names start with digits, use the --name flag to specify a valid package name:
    ```bash
@@ -78,12 +79,12 @@ If you want to run or test the code using Cargo, initialize the folder as a Carg
    mv test.rs src/test.rs  # or integrate into main.rs
    ```
 
-3. **Run the code**  
+4. **Run the code**  
    ```bash
    cargo run
    ```
 
-4. **Run tests** (for topics 15–20)  
+5. **Run tests** (for topics 15–20)  
    ```bash
    cargo test
    ```
