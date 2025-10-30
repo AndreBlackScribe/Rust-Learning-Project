@@ -1,44 +1,13 @@
-fn main() {
-    let number = 42;
+## Topic: Loops
 
-    // Task: Check if the number is positive, negative, or zero
-    if number > 0 {
-        println!("{} is positive", number);
-    } else if number < 0 {
-        println!("{} is negative", number);
-    } else {
-        println!("{} is zero", number);
-    }
+### Task
+Write a program that prints numbers from 1 to 10 using `loop`, `while`, and `for`.
 
-    // Challenge: Classify number by range
-    if number < 10 {
-        println!("{} is small", number);
-    } else if number < 100 {
-        println!("{} is medium", number);
-    } else {
-        println!("{} is large", number);
-    }
+### Challenge
+Create a loop that breaks when a randomly generated number equals 7.
 
-    // Bonus Challenge: Use a function to describe the number
-    println!("{}", describe_number(number));
-}
+### Hint
+Use `rand::thread_rng().gen_range(1..=10)` from the `rand` crate. Remember to add `rand = "0.8"` to your `Cargo.toml`.
 
-fn describe_number(n: i32) -> String {
-    if n < 0 {
-        format!("{} is negative and ", n) + &classify_size(n)
-    } else if n == 0 {
-        "0 is zero".to_string()
-    } else {
-        format!("{} is positive and ", n) + &classify_size(n)
-    }
-}
-
-fn classify_size(n: i32) -> String {
-    if n < 10 {
-        "small".to_string()
-    } else if n < 100 {
-        "medium".to_string()
-    } else {
-        "large".to_string()
-    }
-}
+### Bonus Challenge
+Write a function that sums numbers from 1 to `n` using a loop and returns the result.
