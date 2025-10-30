@@ -28,7 +28,7 @@ rust_learning/
 Each folder contains:
 - `README.md` — task, challenge, hint, and bonus challenge
 - `main.rs` — your implementation
-- `test.rs` — unit tests
+- `test.rs` — unit tests, test this to check if you corently implemeted the tasks
 
 ---
 
