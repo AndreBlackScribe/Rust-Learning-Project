@@ -13,9 +13,11 @@ rust_learning/
 ├── 01_introduction/
 │   ├── README.md
 │   └── main.rs
+│   └── test.rs
 ├── 02_get_started/
 │   ├── README.md
 │   └── main.rs
+│   └── test.rs
 ...
 ├── 20_modules/
 │   ├── README.md
